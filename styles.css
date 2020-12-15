@@ -51,7 +51,6 @@ button {
 }
 
 button:hover{
-	/*background-color: #1ac6ff;*/
 	background-image: linear-gradient(#1ac6ff,#004d66);
 	opacity: .75;
 	color: white;
