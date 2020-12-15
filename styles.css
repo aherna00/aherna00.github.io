@@ -1,0 +1,59 @@
+/* Css Styles */
+
+.vert-align{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#vanta-lines{
+	position:absolute;
+	display:block;
+	min-width:100%;
+	min-height: 100vh;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	z-index: -1;
+}
+
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+}
+
+h1{
+	font-size: 50px;
+	margin: 0px;
+	padding-left: 10%;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	min-width: 100%;
+}
+
+
+button {
+	color: white;
+	border-radius: 10px;
+	border-color: white;
+	background-color: transparent;
+	transition-duration: 0.4s;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 10%;
+	margin-top: 5%;
+	padding:5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+button:hover{
+	/*background-color: #1ac6ff;*/
+	background-image: linear-gradient(#1ac6ff,#004d66);
+	opacity: .75;
+	color: white;
+}
+
