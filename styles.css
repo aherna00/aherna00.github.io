@@ -10,7 +10,7 @@
 	position:absolute;
 	display:block;
 	min-width:100%;
-	min-height: 100vh;
+	min-height: 100%;
 	top:0;
 	bottom:0;
 	right:0;
@@ -23,7 +23,6 @@
 body{
 	font-family: 'Montserrat', sans-serif;
 	color:white;
-	background-color:#07192F;
 }
 
 h1{
@@ -57,7 +56,6 @@ button:hover{
 	color: white;
 }
 
-
 /* ----------- iPhone X ----------- */
 
 
@@ -68,15 +66,29 @@ button:hover{
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
 
-body{
-	width:375px;
+body, html{
+	width: 375px;
 	height: 812px;
+	overflow: hidden;
+    overflow-y: auto;
+}
+
+h1{
+	overflow: hidden;
+	width: 343px;
+}
+
+#vert-align{
+	overflow: hidden;
+	overflow-y: auto;
 }
 
 #vanta-lines{
-	witdth:375px;
+	position: relative;
+	width: 375px;
 	height: 812px;
 }
+
 
 }
 
@@ -88,13 +100,15 @@ body{
   and (orientation: landscape) { 
 
   body{
-  	height: 375px;
+  	height:  375px;
   	width: 812px;
   }
 
+
 #vanta-lines{
-	width: 812px;
+	width: 100vw;
 	height: 375px;
 }
 
 }
+
