@@ -185,7 +185,7 @@ button:hover{
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
 	  body {
-	  max-width:100%;
+	  max-width:812px;
 	  }
 }
 
