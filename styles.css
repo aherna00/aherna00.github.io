@@ -170,6 +170,7 @@ button:hover{
 
 /* ----------- iPhone X ----------- */
 
+
 /* Portrait */
 @media only screen 
   and (min-device-width: 375px) 
@@ -178,9 +179,15 @@ button:hover{
   and (orientation: portrait) { 
 
 body{
+	width:375px;
+	height: 812px;
+}
+
+#vanta-lines{
 	width: 375px;
 	height: 812px;
 }
+
 }
 
 /* Landscape */
@@ -189,5 +196,15 @@ body{
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
+
+  body{
+  	height:  375px;
+  	width: 812px;
+  }
+
+#vanta-lines{
+	width: 812px;
+	height: 375px;
+}
 
 }
