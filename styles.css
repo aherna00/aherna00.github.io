@@ -176,15 +176,23 @@ button:hover{
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
-	  body {
-	  max-width:375px;
-	  max-height:100%;	  }
+
+body{
+	max-width: 100%;
+	max-height: 812px;
+}
 }
 
 /* Landscape */
 @media only screen 
-	and (min-width: 812px) 
-	and (orientation: landscape) { 
-		body{
-		min-width:812px;	} 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+  body{
+  	max-height: 375px;
+  	max-width: 812px;
+  }
+
 }
