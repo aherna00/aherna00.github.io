@@ -190,12 +190,4 @@ body{
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
 
-  body{
-  	height: 375px;
-  	width: 1000px;
-  }
-	 h1{
-		 color:red;
-	  }
-
 }
