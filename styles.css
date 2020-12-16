@@ -69,13 +69,13 @@ button:hover{
   and (orientation: portrait) { 
 
 body{
-	width:100vw;
-	height: 100vh;
+	width:375px;
+	height: 812px;
 }
 
 #vanta-lines{
-	witdth:812px;
-	height: 375px;
+	witdth:375px;
+	height: 812px;
 }
 
 }
