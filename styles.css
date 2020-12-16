@@ -184,7 +184,7 @@ body{
 }
 
 #vanta-lines{
-	width: 375px;
+	min-width: 375px;
 	height: 812px;
 }
 
@@ -199,7 +199,7 @@ body{
 
   body{
   	height:  375px;
-  	width: 100%;
+  	width: 812px;
   }
 
 #vanta-lines{
