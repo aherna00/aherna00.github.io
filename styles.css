@@ -180,12 +180,12 @@ button:hover{
 
 body{
 	width:375px;
-	height: 812px;
+	height: 100%;
 }
 
 #vanta-lines{
-	min-width: 100%;
-	height: 812px;
+	witdth:100vw;
+	height: 100%;
 }
 
 }
@@ -198,12 +198,12 @@ body{
   and (orientation: landscape) { 
 
   body{
-  	height:  375px;
+  	height: 375px;
   	width: 812px;
   }
 
 #vanta-lines{
-	width: 812px;
+	width: 100vw;
 	height: 375px;
 }
 
