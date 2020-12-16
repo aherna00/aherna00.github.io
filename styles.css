@@ -178,8 +178,8 @@ button:hover{
   and (orientation: portrait) { 
 
 body{
-	max-width: 100%;
-	max-height: 812px;
+	width: 100%;
+	height: 812px;
 }
 }
 
@@ -191,8 +191,8 @@ body{
   and (orientation: landscape) { 
 
   body{
-  	max-height: 375px;
-  	max-width: 812px;
+  	height: 375px;
+  	width: 812px;
   }
 
 }
