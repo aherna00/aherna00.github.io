@@ -154,7 +154,7 @@ h1{
 	.nav-links{
 		position: absolute;
 		right: 0px;
-		height: 92vh;
+		height: 92%;
 		top:8vh;
 		background-color: #408CE5;
 		display:none;
@@ -204,7 +204,7 @@ h1{
 	.nav-links{
 		position: absolute;
 		right: 0px;
-		height: 92vh;
+		height: 92%;
 		top:8vh;
 		background-color: #408CE5;
 		display:none;
