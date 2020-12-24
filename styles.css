@@ -149,7 +149,7 @@ h1{
   and (orientation: portrait)
   {
   	body{
-		overflow-x: hidden;
+		overflow-x: hidden !important;
 	}
 	.nav-links{
 		position: absolute;
