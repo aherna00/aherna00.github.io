@@ -170,6 +170,10 @@ h1{
 	.nav-links li{
 		opacity: 0;
 	}
+	  
+  	.nav-links a{
+		font-size:35px;
+	  }
 
 	.burger{
 		display: block;
@@ -203,7 +207,7 @@ h1{
 		height: 92vh;
 		top:8vh;
 		background-color: #408CE5;
-		display:flex;
+		display:none;
 		flex-direction: column;
 		align-items: center;
 		width: 40%;
@@ -222,7 +226,7 @@ h1{
 		text-decoration: none;
 		letter-spacing: 1px;
 		font-weight: bold;
-		font-size: 25px;
+		font-size: 35px;
 	}
 
 	.burger{
@@ -232,6 +236,7 @@ h1{
 
 	.nav-active{
 	transform: translateX(0%);
+	display:flex;
 	}
 
 
